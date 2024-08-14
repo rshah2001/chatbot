@@ -11,7 +11,6 @@ class ChatBotWindow(QMainWindow):
         self.ai_chat = Chatbot()
         self.setMinimumSize(700, 500)
 
-
         # Add chat area widget
         self.chat_area = QTextEdit(self)
         self.chat_area.setGeometry(10, 10, 680, 320)
